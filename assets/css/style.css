@@ -5,13 +5,10 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #acafaf;
-  background-color: #040B14;
+
 }
 
-section{
-  /* box-shadow: 0 24px 0 0 #ffffff; */
-  /* box-shadow: 0px 2px 10px rgba(69, 68, 68, 0.395) */
-}
+
 
 a {
   color: #149ddd;
@@ -53,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top:hover {
   color: #fff;
   background: #065980;
-  transition: background 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 /*--------------------------------------------------------------
@@ -215,17 +212,6 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
-#hero:before {
-  content: "";
-
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-}
-
 #hero .hero-container {
   position: relative;
   z-index: 2;
@@ -319,6 +305,9 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+background-color: #040B14;
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -432,6 +421,10 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume{
+  background-color: #040B14;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -593,6 +586,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services{
+  background-color: #040B14;
+
+}
 .services .icon-box {
   text-align: center;
   padding: 50px 20px 60px 20px;
