@@ -12,6 +12,8 @@ body {
 
 /* preloader */
 #preloader{
+  display: flex;
+  justify-content: center;
   position: fixed;
   height: 100vh;
   width: 100%;
@@ -20,12 +22,18 @@ body {
 }
 
 .loader{
-  height: 30%;
-  position: absolute;
-  top: 37%;
-  left: 38%;
+  height: 90px;
+  align-self: center;
 
 }
+
+@media (max-width: 600px) {
+  .loader{
+    height: 70px;
+  
+  }
+}
+
 
 
 
