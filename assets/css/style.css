@@ -1,12 +1,16 @@
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #acafaf;
     background-color: #040B14;
+}
 
+::-webkit-scrollbar{
+  width: 6px;
+}
+::-webkit-scrollbar-thumb{
+background: linear-gradient(rgba(255, 255, 255, 0.393), rgb(0, 30, 95));
+  border-radius: 10px;
 
 }
 
